@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router'; // Importa Router
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpService } from 'src/app/services/http.service';
 
 @Component({
@@ -25,7 +25,7 @@ export class PokemonDetailPage implements OnInit {
   navigateToMoves() {
     const activeElement = document.activeElement as HTMLElement | null;
     if (activeElement) {
-      activeElement.blur(); // Quita el foco si el elemento es un input o botón
+      activeElement.blur();
     }
     this.router.navigate(['/pokemon-about', this.pokemon.name]);
   }

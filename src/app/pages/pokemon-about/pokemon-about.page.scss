@@ -1,0 +1,27 @@
+ion-grid {
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+ion-row:first-child {
+    background-color: #FFAB91;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid #FF7043;
+}
+ion-row:not(:first-child) {
+    background-color: #FBE9E7;
+    color: black; 
+}
+ion-row {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+}
+ion-col {
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+ion-col:last-child {
+    border-right: none;
+}
