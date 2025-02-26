@@ -50,3 +50,6 @@ Una aplicación desarrollada con Ionic Framework y Angular que consume la PokéA
 ## 📜 API utilizada
 
 Este proyecto utiliza [PokéAPI](https://pokeapi.co/) para obtener los datos de los Pokémon.
+
+## 📌 Enlace de demostración
+https://poke-api-competitive.vercel.app/home
