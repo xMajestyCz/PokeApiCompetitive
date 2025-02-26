@@ -1,0 +1,34 @@
+.stat-bar {
+    height: 15px;
+    background-color: #4caf50;
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+}
+.stat-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.stat-value {
+    font-weight: bold;
+    min-width: 40px;
+}
+.front, .back{
+    display: flex;
+    justify-content: center;
+    background-color: #B2DFDB;
+    gap: 1rem;
+    padding: 1rem;
+}
+img{
+    width: auto;
+    height: 5rem;
+}
+.stat{
+    text-align: center;
+}
+ion-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

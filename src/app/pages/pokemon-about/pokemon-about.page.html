@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ pokemon?.name | titlecase }} - Moves</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col><strong>Move</strong></ion-col>
+      <ion-col><strong>Level-up</strong></ion-col>
+      <ion-col><strong>Tutor</strong></ion-col>
+      <ion-col><strong>MT-MO</strong></ion-col>
+    </ion-row>
+
+    <ion-row *ngFor="let move of movesList">
+      <ion-col>{{ move.name | titlecase }}</ion-col>
+      <ion-col>{{ move.levelUp ? '✅' : '❌' }}</ion-col>
+      <ion-col>{{ move.tutor ? '✅' : '❌' }}</ion-col>
+      <ion-col>{{ move.mtmo ? '✅' : '❌' }}</ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

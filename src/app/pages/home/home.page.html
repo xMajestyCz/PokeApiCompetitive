@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Pokémon List</ion-title>
+  </ion-toolbar>
+  <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="filterPokemon()"></ion-searchbar>
+</ion-header>
+
+<ion-content>
+  <div class="pokemon-grid">
+    <ion-card *ngFor="let pokemon of filteredPokemon" (click)="goToDetail(pokemon.name)">
+      <ion-card-content>
+        <img *ngIf="pokemon.sprites?.other?.['official-artwork']?.front_default"
+             [src]="pokemon.sprites?.other?.['official-artwork']?.front_default"
+             alt="{{ pokemon.name }}"
+             loading="lazy"
+             class="pokemon-image"/>
+        <p>{{ pokemon.name | titlecase }}</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
