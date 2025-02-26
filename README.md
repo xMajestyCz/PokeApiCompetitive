@@ -31,8 +31,8 @@ Una aplicación desarrollada con Ionic Framework y Angular que consume la PokéA
 
 1. **Clona el repositorio**  
    ```bash
-   git clone https://github.com/tu-usuario/pokedex-ionic.git
-   cd pokedex-ionic
+   git clone https://github.com/xMajestyCz/PokeApiCompetitive.git
+   cd PokeApiCompetitive
 
 2. **Instala dependencias**
    ```bash
