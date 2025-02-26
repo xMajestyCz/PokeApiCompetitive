@@ -12,9 +12,13 @@ Una aplicación desarrollada con Ionic Framework y Angular que consume la PokéA
 ## 🖥️ Capturas de pantalla
 
 <p align="center">
+  
   ![Captura de pantalla 2025-02-25 213609](https://github.com/user-attachments/assets/38453050-fed8-4301-9fb8-4e4456d91e0f)
+  
   ![Vídeo sin título ‐ Hecho con Clipchamp (1)](https://github.com/user-attachments/assets/b26482de-9168-473e-b1ca-b836ef68bbd8)
+  
   ![Captura de pantalla 2025-02-25 213932](https://github.com/user-attachments/assets/23423c31-8da5-472a-adec-4ddd8fc9df38)
+  
 </p>
 
 ## 🛠️ Tecnologías utilizadas
